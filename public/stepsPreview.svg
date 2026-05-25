@@ -1,0 +1,72 @@
+<svg
+  width="360"
+  height="260"
+  viewBox="0 0 360 260"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Card -->
+  <rect
+    x="0"
+    y="0"
+    width="360"
+    height="260"
+    rx="14"
+    fill="#FFFFFF"
+    stroke="#E5E7EB"
+  />
+
+  <!-- Title -->
+  <text
+    x="20"
+    y="30"
+    font-size="14"
+    font-weight="600"
+    fill="#111827"
+    font-family="system-ui, sans-serif"
+  >
+    Steps to reproduce
+  </text>
+
+  <!-- Step rows -->
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#374151">
+    <rect x="20" y="45" width="320" height="34" rx="8" fill="#F9FAFB" />
+    <text x="30" y="67">Opened Settings page</text>
+    <text x="310" y="67" text-anchor="end" fill="#6B7280">2.1s</text>
+
+    <rect x="20" y="85" width="320" height="34" rx="8" fill="#F9FAFB" />
+    <text x="30" y="107">Clicked Edit Profile</text>
+    <text x="310" y="107" text-anchor="end" fill="#6B7280">4.8s</text>
+
+    <rect x="20" y="125" width="320" height="34" rx="8" fill="#F9FAFB" />
+    <text x="30" y="147">Typed new email address</text>
+    <text x="310" y="147" text-anchor="end" fill="#6B7280">6.3s</text>
+
+    <rect x="20" y="165" width="320" height="34" rx="8" fill="#F9FAFB" />
+    <text x="30" y="187">Clicked Save</text>
+    <text x="310" y="187" text-anchor="end" fill="#6B7280">9.2s</text>
+  </g>
+
+  <!-- Error row -->
+  <rect x="20" y="205" width="320" height="34" rx="8" fill="#FEE2E2" />
+  <text
+    x="30"
+    y="227"
+    font-size="13"
+    font-weight="600"
+    fill="#991B1B"
+    font-family="system-ui, sans-serif"
+  >
+    Error appeared
+  </text>
+  <text
+    x="310"
+    y="227"
+    font-size="13"
+    fill="#991B1B"
+    text-anchor="end"
+    font-family="system-ui, sans-serif"
+  >
+    9.4s
+  </text>
+</svg>

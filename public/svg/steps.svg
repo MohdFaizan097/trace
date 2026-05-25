@@ -1,0 +1,81 @@
+<svg
+  width="800"
+  height="360"
+  viewBox="0 0 800 360"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Card background -->
+  <rect
+    x="0"
+    y="0"
+    width="800"
+    height="360"
+    rx="18"
+    fill="#FFFFFF"
+    stroke="#E5E7EB"
+  />
+
+  <!-- Title -->
+  <text
+    x="32"
+    y="40"
+    font-size="16"
+    font-weight="600"
+    fill="#111827"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+  >
+    Steps to reproduce
+  </text>
+
+  <!-- Step rows -->
+  <g
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+    font-size="14"
+    fill="#111827"
+  >
+    <!-- Row 1 -->
+    <rect x="32" y="60" width="736" height="44" rx="12" fill="#F1F5F9" />
+    <text x="48" y="88">Opened Settings page</text>
+    <text x="752" y="88" text-anchor="end" fill="#6B7280">2.1s</text>
+
+    <!-- Row 2 -->
+    <rect x="32" y="112" width="736" height="44" rx="12" fill="#F9FAFB" />
+    <text x="48" y="140">Clicked Edit Profile</text>
+    <text x="752" y="140" text-anchor="end" fill="#6B7280">4.8s</text>
+
+    <!-- Row 3 -->
+    <rect x="32" y="164" width="736" height="44" rx="12" fill="#F9FAFB" />
+    <text x="48" y="192">Typed new email address</text>
+    <text x="752" y="192" text-anchor="end" fill="#6B7280">6.3s</text>
+
+    <!-- Row 4 -->
+    <rect x="32" y="216" width="736" height="44" rx="12" fill="#F9FAFB" />
+    <text x="48" y="244">Clicked Save</text>
+    <text x="752" y="244" text-anchor="end" fill="#6B7280">9.2s</text>
+  </g>
+
+  <!-- Error row -->
+  <rect x="32" y="268" width="736" height="44" rx="12" fill="#FEE2E2" />
+  <text
+    x="48"
+    y="296"
+    font-size="14"
+    font-weight="600"
+    fill="#991B1B"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+  >
+    Error appeared
+  </text>
+  <text
+    x="752"
+    y="296"
+    text-anchor="end"
+    font-size="14"
+    font-weight="600"
+    fill="#991B1B"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+  >
+    9.4s
+  </text>
+</svg>

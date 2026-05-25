@@ -18,8 +18,9 @@
         "name": "next"
       }
     ],
-    "paths": {
-      "@/*": ["./*"]
+     "paths": {
+      "@/*": ["./*"],
+      "@components/*": ["./components/*"]
     }
   },
   "include": [
