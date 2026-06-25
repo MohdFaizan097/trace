@@ -3,7 +3,7 @@ import AboutFeatureCard from "./aboutFeatureCard";
 import { IconCapture, IconCopy, IconPrivacy, IconSteps } from "./icons";
 
 
-const AboutSection = ({ handleStartRecording }: { handleStartRecording?: () => void }) => {
+const AboutSection = () => {
   return (
     <section className="w-full py-20 px-6">
       <div className="max-w-7xl mx-auto">
@@ -30,7 +30,7 @@ const AboutSection = ({ handleStartRecording }: { handleStartRecording?: () => v
             icon={<IconSteps />}
           />
 
-          <AboutCTA handleStartRecording={handleStartRecording} />
+          <AboutCTA />
 
           <AboutFeatureCard
             className="md:col-span-4"
