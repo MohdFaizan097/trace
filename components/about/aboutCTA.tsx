@@ -3,7 +3,7 @@
 import { Button } from "../ui/button";
 import { useRouter } from "next/navigation";
 
-const AboutCTA = () => {
+const AboutCTA = ({ handleStartRecording }: { handleStartRecording?: () => void }) => {
   const router = useRouter();
 
   return (
@@ -21,8 +21,14 @@ const AboutCTA = () => {
 
         <Button
           size="lg"
-          variant="secondary"
-          onClick={() => router.push("/record")}
+          className="bg-white text-black hover:bg-gray-100 font-semibold cursor-pointer z-10 relative"
+          onClick={() => {
+            if (handleStartRecording) {
+              handleStartRecording();
+            } else {
+              router.push("/record");
+            }
+          }}
         >
           Start Recording
         </Button>
